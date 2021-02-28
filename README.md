@@ -12,7 +12,7 @@ python3 app.py
 install as a service:
 
 ```
-cp supervisor/ds18b20-ws.conf /etc/supervisor/conf.d
+cp ds18b20-ws.conf /etc/supervisor/conf.d
 rehash
 supervisorctl reload
 supervisorctl status

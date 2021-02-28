@@ -47,7 +47,7 @@ def hello():
     
 if __name__ == "__main__":
     try:
-        run(host="127.0.0.1", port=18020,
+        run(host="0.0.0.0", port=18020,
             debug=True, quiet=False)
     except Exception as e:
         print(e)
