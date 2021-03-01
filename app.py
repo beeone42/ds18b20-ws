@@ -39,7 +39,7 @@ def red_temp():
     if (tC != t_old):
         print(tC)
     t_old = tC
-    return {'temp':str(tC)}
+    return {'temp':str(round(tC,2))}
 
 @route('/')
 def hello():
